@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+}
+
+.bg1{
+    height: 100vh;
+    width: 100vw;
+}
+#text h1{
+    font-size: 50px;
+    text-shadow: 1px 4px 3px rgb(158, 157, 161);
+  
+}
+#text h4{
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    /* position: relative;
+    top: 10px; */
+}
+  #cnt{
+    height: 500px;
+    width: 1000px;
+    margin-top: 30px;
+  }
+
+  th{
+    background-color: rgb(255, 30, 0);
+    color: white;
+    padding: 10px;
+    
+  }
+
+  table{
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .whiter{
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+    
+  
+  .bold-text{
+    font-weight: bold;
+  }
+
+  .players{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+  }
+
+  td{
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(139, 132, 132);
+  }
+  
+  #temp{
+    position:absolute; 
+    animation: fade 1s  ease-out;
+    visibility: hidden;
+  }
+  .logo{
+    position: relative;
+    left: 1300px;
+  }
+
+
+
+
+
+
+
+  @keyframes fade{
+    0%{
+      visibility:visible;
+    }100%{
+      visibility: hidden;
+    }
+  }
+  #tab{
+    /* position: relative; */
+    bottom: 650px;
+    left: 150px;
+  }
+.footer{
+    /* position: relative; */
+    bottom: 650px;
+    left: 150px;
+    font-weight: bold;
+
+}
